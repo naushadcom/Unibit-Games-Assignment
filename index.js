@@ -64,3 +64,20 @@ console.log(`Second Combination For ${target * 2}:`, doubleCombinations);
 // First Combination For 4: [ [ 1, 3 ], [ 2, 2 ], [ -4, 8 ], [ -6, 2 ] ]
 // Merge Into a single Array: [ -6, -4, -2, 1, 2, 2, 3, 8 ]
 // Second Combination For 8: [ [ 1, 3, 2, 2 ], [ 8, -4, 2, 2 ] ]
+
+
+// Time and space complexity:
+
+findCombinations function:
+Time Complexity: O(n^2)
+Space Complexity: O(n)
+
+Sorting the array:
+Time Complexity: O(n log n)
+Space Complexity: O(1)
+
+Finding combinations for the double target:
+Time Complexity: O(n^2)
+Space Complexity: O(1)
+
+Overall time complexity is dominated by the nested loops, and the space complexity is primarily determined by the size of the input array.
